@@ -253,4 +253,8 @@ a.cert-img:hover img{transform:scale(1.02)}
 .hero-card .me span{ font-size:15px; }
 .hero-card .kv{ margin:14px 22px 22px; }
 .kv b{ font-size:15.5px; }
-@media (max-width:900px){ .hero-card{ max-width:420px; } }
+@media (max-width:900px){ 
+  .hero-card{ max-width:420px; }
+  .about img{ justify-self:center; max-width:260px; }
+  .hero-card{ justify-self:center; width:100%; } 
+}
